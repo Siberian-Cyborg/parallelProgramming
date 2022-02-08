@@ -7,6 +7,10 @@ Check out more detailed explanations on YouTube. Here is a nice animation of the
 
 https://www.youtube.com/watch?v=rkPxkdBCvEA
 
+This PDF also gives a brief description of the algorithm:
+
+[BarnesHut.pdf](https://github.com/Siberian-Cyborg/parallelProgramming/files/8019602/BarnesHut.pdf)
+
 ## Parallelization
 The point of this project was to accelerate the Barnes-Hut algorithm by running it in parallel on multiple threads/cores/sockets on a server. For that different frameworks were used. At first the parallelization was done using OpenMP (https://en.wikipedia.org/wiki/OpenMP). Afterwards MPI (https://en.wikipedia.org/wiki/Message_Passing_Interface) was used. Then a hybrid approach utilizing both frameworks was implemented. Finally some SIMD operations were added to further increase the speedup. 
 
