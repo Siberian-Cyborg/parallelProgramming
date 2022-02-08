@@ -12,8 +12,8 @@ This PDF also gives a brief description of the algorithm:
 [BarnesHut.pdf](https://github.com/Siberian-Cyborg/parallelProgramming/files/8019602/BarnesHut.pdf)
 
 ## Parallelization
-The point of this project was to accelerate the Barnes-Hut algorithm by running it in parallel on multiple threads/cores/sockets on a server. For that different frameworks were used. At first the parallelization was done using OpenMP (https://en.wikipedia.org/wiki/OpenMP). Afterwards MPI (https://en.wikipedia.org/wiki/Message_Passing_Interface) was used. Then a hybrid approach utilizing both frameworks was implemented. Finally some SIMD operations were added to further increase the speedup. 
+The point of this project was to accelerate the Barnes-Hut algorithm by running it in parallel on multiple threads/cores/sockets on a server. The machine used to run the code was a NUMA architecture with two sockets 8 dual threaded cores each. That makes 32 threads in total. For that different frameworks were used. At first the parallelization was done using OpenMP (https://en.wikipedia.org/wiki/OpenMP). Afterwards MPI (https://en.wikipedia.org/wiki/Message_Passing_Interface) was used. Then a hybrid approach utilizing both frameworks was implemented. Finally some SIMD operations were added to further increase the speedup. 
 
-These presentation slides summarize all techniques used:
+These slides summarize all techniques used:
 
 [BarnesHutParallel.pdf](https://github.com/Siberian-Cyborg/parallelProgramming/files/8019563/BarnesHutParallel.pdf)
