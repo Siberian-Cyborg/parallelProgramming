@@ -1,0 +1,12 @@
+.idea
+images/
+.DS_Store
+._*
+cmake-build-*
+build/
+mpibh
+*.o
+serialbh
+hybridbh
+perf_*.data
+perf_*.log
